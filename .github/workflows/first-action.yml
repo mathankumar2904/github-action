@@ -1,6 +1,9 @@
 name: My first GitHub Actions
 
-on: [push]
+on:
+  - push
+  - commit_comment
+  
 
 jobs:
   build:
